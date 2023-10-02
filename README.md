@@ -6,6 +6,28 @@ Welcome to my HTML learning journey repository! 🚀
 
 This repository serves as a documentation of my journey as I learn and practice HTML. I'm excited to share my progress, projects, and resources with you.
 
+## Tools Used
+
+During my HTML learning journey, I'm using the following tools and software:
+
+- **Code Editor**: [Visual Studio Code](https://code.visualstudio.com/)
+  - Visual Studio Code is my preferred code editor for writing HTML, CSS, and JavaScript. It offers a wide range of extensions and features to enhance the development experience.
+
+- **Web Browser**: [Google Chrome](https://www.google.com/chrome/)
+  - I primarily use Google Chrome for testing and previewing my web pages. It comes with developer tools that are handy for debugging.
+
+- **Version Control**: [Git](https://git-scm.com/) and [GitHub](https://github.com/)
+  - Git is the version control system I use to track changes in my code, and GitHub is where I host this repository to share my learning journey with others.
+
+- **Online HTML Validator**: [W3C Markup Validation Service](https://validator.w3.org/)
+  - I use the W3C Markup Validation Service to validate my HTML code and ensure it adheres to web standards.
+
+- **Online Markdown Editor**: [Dillinger](https://dillinger.io/)
+  - I use Dillinger to write and preview Markdown files, including this README.
+
+Feel free to ask me about any specific tools or software I'm using during my journey!
+
+
 ## Folder Structure
 
 This repository is organized into two main folders:
