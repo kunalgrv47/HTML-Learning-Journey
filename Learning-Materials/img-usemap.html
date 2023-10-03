@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Map</title>
+</head>
+<body>
+    <h2 style="background-color: yellow;">Usemap Attribute</h2>
+
+    <p>
+        * Here we are using <b>usemap attribute</b> with <b>img tag.</b></p>
+    <p>
+        * The <b>usemap attribute</b> creates a relationship between the <b>img tag</b> and the <b>map tag</b>.</p>
+    <p>
+        * In <b>map tag</b> we are using and attribute <b>name</b> with value as <q>image-map.</q></b><i>(image map is an image with clickable areas)</i></p>
+    <p>
+        * Inside <b>map tag</b> we need to declare the co-ordinates using <b>coords attribute</b> of the image. We can generate image co-ordinates online on 
+        <a href="https://www.image-map.net/" target="_blank">
+            this website
+        </a>
+    </p>
+    <p>
+        * Inside <b>map tag</b> we have to use one more attribute <b>onclick</b> to call function which is written under <b>script (<i>written using java script</i>)</b>
+    </p>
+
+    <br>
+
+    <h3 style="color: green;">
+        <u>Below is an image with 2 specific area. You will get alert for the clicked area.</u>
+    </h3>
+
+    <p>
+        * In this example, I have used 3 tags: <b><i>img tag, map tag and script tag</i></b> <br>
+        * In img tag, inserted image and used <q>usemap attribute</q> to link img tag with map tag. <br>
+        * In <b>map tag</b> we have to mention image cordinate for specific area and also call functions accordingly and display the alert. <br>
+        * In <b>script tag</b> functions are written to display alert.
+    </p>
+
+    <blockquote>
+        <img src="./Images/p_tag.png" alt="p-tag image" usemap="#image-map">
+    </blockquote>
+
+    <map name="image-map">
+        <area target="" onclick="funOne()" alt="" title="" href="" coords="353,295,4,3" shape="rect">
+        <area target="" onclick="funTwo()" alt="" title="" href="" coords="370,3,837,297" shape="rect">
+    </map>
+
+    <!-- java Script -->
+    <script>
+        function funOne(){
+            alert("You clicked on html code")
+        }
+        function funTwo(){
+            alert("You clicked on webpage")
+        }
+    </script>
+
+    <br>
+    <a href="index.html">Go to Home</a> 
+    
+</body>
+</html>
