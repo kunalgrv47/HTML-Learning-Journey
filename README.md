@@ -25,11 +25,11 @@ Feel free to ask me about any specific tools or software I'm using during my jou
 
 ## Folder Structure
 
-This repository is organized into two main folders:
+This repository contains multiple html files and two folders:
 
-1. **Learning Materials**: This folder contains my notes, code snippets, and resources related to HTML learning.
+1. **Images**: This folder contains all the images that I used in HTML files.
 
-2. **Learning Projects**: Here, you'll find the hands-on projects I've created to apply what I've learned.
+2. **Learning Materials**: This folder contains my notes.
 
 Feel free to explore these folders to follow along with my learning journey.
 
