@@ -34,13 +34,12 @@ If you want to run this website locally on your computer for development or test
    
 
 
-## Folder Structure
+## Repository Structure
 
-This repository contains multiple html files and two folders:
-
-1. **Images**: This folder contains all the images that I used in HTML files.
-
-2. **Learning Materials**: This folder contains my notes.
+- `index.html file`: The main HTML file for the webpage.
+- `Other HTML files`: These files represent different pages for the website.
+- `Image/`: This folder contains all the images used in the HTML files.
+- `Learning-Material`: This folder contains notes in pdf format.
 
 Feel free to explore these folders to follow along with my learning journey.
 
