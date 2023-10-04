@@ -5,6 +5,7 @@ Welcome to my HTML learning journey repository! 🚀
 ## Introduction
 
 This repository serves as a documentation of my journey as I learn and practice HTML. I'm excited to share my progress, projects, and resources with you.
+To see my progress in the form of a website [Visit My Website](https://kunalgrv47.github.io/HTML-Learning-Journey/).
 
 ## Tools Used
 
@@ -30,9 +31,6 @@ If you want to run this website locally on your computer for development or test
    ```bash
    git clone https://github.com/kunalgrv47/HTML-Learning-Journey.git
 2. Open the index.html file in your preferred web browser.
-
-   
-
 
 ## Repository Structure
 
