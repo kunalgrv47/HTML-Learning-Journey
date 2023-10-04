@@ -22,6 +22,15 @@ During my HTML learning journey, I'm using the following tools and software:
 
 Feel free to ask me about any specific tools or software I'm using during my journey!
 
+## How to Run Locally
+
+If you want to run this website locally on your computer for development or testing purposes, follow these steps:
+
+1. Clone this repository to your local machine using Git:
+
+   ```bash
+   git clone https://github.com/kunalgrv47/HTML-Learning-Journey.git
+
 
 ## Folder Structure
 
