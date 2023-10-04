@@ -27,9 +27,11 @@ Feel free to ask me about any specific tools or software I'm using during my jou
 If you want to run this website locally on your computer for development or testing purposes, follow these steps:
 
 1. Clone this repository to your local machine using Git:
-
    ```bash
    git clone https://github.com/kunalgrv47/HTML-Learning-Journey.git
+2. Open the index.html file in your preferred web browser.
+
+   
 
 
 ## Folder Structure
