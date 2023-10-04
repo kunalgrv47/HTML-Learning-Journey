@@ -1,33 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Formatting</title>
+    <meta name="description" content="HTML Text Formatting">
+    <title>HTML Text Formatting</title>
 </head>
+
 <body style="background-color: pink;">
-    <h2 style="color: green;">HTML FORMATTING</h2>
 
-    <p style="font-style: oblique;">
-        <mark>Below are the various examples where formatting is applied to the word <b><i>nice.</i></b></mark>
-        
-    </p>
+    <h1>06. <u>HTML TEXT FORMATTING</u></h1>
+    <hr>
 
-    <p>This is a <strong>nice</strong> paragraph</p> 
-    <p>This is a <i>nice</i> paragraph</p> 
-    <p>This is a <em>nice</em> paragraph</p>
-    <p>This is a <small>nice</small> paragraph</p>
-    <p>This is a <ins>nice</ins> paragraph</p>
-    <p>This is a <del>nice</del> paragraph</p>
-    <p>This is a <mark>nice</mark> paragraph</p>
+    <ul>
+        <li>Text formatting in HTML refers to the process of applying various visual styles and layout options to text
+            content to improve its presentation and readability.</li>
+        <li>HTML provides several elements and attributes for text formatting, allowing you to control aspects such as
+            font size, font family, text alignment, emphasis, and more.</li>
+    </ul>
+
+    <h2># Some common HTML elements used for text formatting:</h2>
+    <ul>
+        <li><b>&lt;b&gt;</b> - Bold text</li>
+        <li><b>&lt;i&gt;</b> - Italic text</li>
+        <li><b>&lt;em&gt;</b> - Emphasized text</li>
+        <li><b>&lt;mark&gt;</b> - Marked text (highlight text with yellow color)</li>
+        <li><b>&lt;strong&gt;</b> - Important text</li>
+        <li><b>&lt;small&gt;</b> - Smaller text</li>
+        <li><b>&lt;del&gt;</b> - Deleted text</li>
+        <li><b>&lt;ins&gt;</b> - Inserted text</li>
+        <li><b>&lt;sub&gt;</b> - Subscript text</li>
+        <li><b>&lt;sup&gt;</b> - Superscript text</li>
+
+    </ul>
+
+
+    <h3># Below are the various examples where formatting is applied to the word <i>nice.</i></h3>
+
+    <ul>
+        <li>This is a <strong>nice</strong> paragraph. ==> Using &lt;small&gt;</li>
+        <li>This is a <i>nice</i> paragraphph. ==> Using &lt;i&gt;</li>
+        <li>This is a <em>nice</em> paragraph. ==> Using &lt;em&gt;</li>
+        <li>This is a <small>nice</small> paragraph. ==> Using &lt;small&gt;</li>
+        <li>This is a <ins>nice</ins> paragraphraph. ==> Using &lt;ins&gt;</li>
+        <li>This is a <del>nice</del> paragraphraph. ==> Using &lt;del&gt;</li>
+        <li>his is a <mark>nice</mark> paragraraph. ==> Using &lt;mark&gt;</li>
+    </ul>
+
+    <h3># Examples of subscript and Superscript.</h3>
+    <ul>
+        <li>H <sub>2</sub> O : Here 2 is written inside &lt;sub&gt;&lt;/sub&gt;</li>
+        <li>(a+b)<sup>2</sup> : Here 2 is written inside &lt;sup&gt;&lt;/sup&gt;</li>
+    </ul>
+
+    <h3># Below example are using style attribute with text-shadow CSS property.</h3>
+
+    <ul>
+        <li>
+            <p>This is a <span style="text-shadow: 2px 2px 4px navy">nice</span> paragraph</p>
+        </li>
+        <li>
+            <p style="text-shadow: 2px 2px 4px #000;">Text with shadow</p>
+        </li>
+
+    </ul>
+
+    <blockquote>
+        <img src="Images/Text-shadow-example.png" alt="Text-shadow-example" width="500" height="300">
+    </blockquote>
+
     <br>
-
-    <p><b>NOTE:</b></p>
-    <p>
-        We can also use <u><i>sub tag</i></u> to use subscript for writing H2O like: H <sub>2</sub>O. <br>
-        only 2 need to be write inside sub tag.[ H< sub > 2 < /sub >O ]
-    </p>
-
-    <a href="index.html">Go to Home</a> 
+    <a href="HTML_Paragraph.html">Prev</a>
+    <a href="index.html">Go to Home</a>
 </body>
+
 </html>

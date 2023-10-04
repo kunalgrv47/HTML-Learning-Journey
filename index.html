@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basics of HTML">
     <title>HTML Basics</title>
 </head>
 
-<body>
+<body style="background-color: pink;">
 
     <!-- About HTML and its defination -->
-    <h1 style="color: greenyellow;"><u>HTML BASICS</u></h1>
+    <h1>
+        <u>HTML BASICS</u>
+    </h1>
     <hr>
     <ul>
         <li>HTML Stands for <i><b>Hyper Text Markup Language.</b></i></li>
@@ -19,9 +22,26 @@
         <li>HTML consists of series of element.</li>
         <li>HTML element tells the browser how to display the content.</li>
     </ul>
-    
-    <h3><a href="index.html">Prev</a></h3>
-    <h3><a href="HTML-Structure.html">Next</a></h3>
+
+    <a href="index.html">Prev</a>
+    <a href="HTML-Structure.html">Next</a>
+
+    <pre></pre>
+
+    <button id="prevButton"> Prev</button>
+    <button id="nextButton">Next</button>
+    <script>
+        // Add an event listener to the button
+        document.getElementById('nextButton').addEventListener('click', function () {
+            // Redirect to structure.html
+            window.location.href = 'HTML-Structure.html';
+        });
+
+        document.getElementById('prevButton').addEventListener('click', function () {
+            // Redirect to structure.html
+            window.location.href = 'index.html';
+        });
+    </script>
 
 </body>
 

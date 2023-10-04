@@ -3,44 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Paragraph">
     <title>HTML Paragraph</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <h1>05. <u>HTML PARAGRAPH:</u></h1> 
     <hr>
 
-    <p>
-        1. In paragraph tag we can write the text. <br>
-        2. < p > : Paragrapgh open tag.  <br>
-        3. < /p > : Paragraph closing tag. <br>
-        4. In between opening and closing tag we can write the content and to break the line we can use "br tag". < br >
-    </p>
+    <ul>
+        <li>The HTML &lt;p&gt; element defines a paragraph.</li>
+        <li>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.</li>
+        <li>With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.</li>
+        <li>The browser will automatically remove any extra spaces and lines when the page is displayed:</li>
+    </ul>
 
-    <h4>PRE TAG:</h4>
-    <p>
-        1. Prev tag is used to display the text exactly as we write in html file. <br>
-        2. If we give enter in html then it will display enter in browser without giving "br" tag.
-    </p>
+    <h2>Q: How to write paragraph in HTML ?</h2>
 
-    <h4>Example:To understand difference between "p" tag and "pre" tag write the below content with both the tags.</h4>
-    <p>
-        Line 1 <br>
-        Line 2 <br>
-        <br>
-        Line 3 <br>
-        Line 4 <br>
-        <br>
-        <img src="Images/p_tag.png" alt="p-tag sample" width="50%"
-        >
-        <pre>               Example with p-tag</pre>
-        <br><br>
-        <img src="Images/pre_tag.png" alt="pre-tag sample" width="50%">
-        <pre>               Example with pre-tag</pre>
-    </p>
+    <ul>
+        <li>
+            If we want to write paragraph then we need to write our content between paragraph open and closing tag.
+        </li>
+        <li>
+            &lt;p&gt; : Paragrapgh open tag.
+        </li>
+        <li>
+            &lt;/p&gt; : Paragraph closing tag.
+        </li>
+        <li >
+            <span style="background-color: yellow;">
+                <b>Note:</b> While writing content inside paragraph, if we are giving multiple spaces and new line then the browser will automatically remove any extra spaces and lines when the page is displayed.
+            </span>
+        </li>
+    </ul>
+    <blockquote>
+        <b>EXAMPLE:</b> In the below figure we can see how the code is written and how the browser displayed this. <br>Fig:a shows the HTM code and Fog:b shows how the browser displays the code.
+    </blockquote>
 
-    <a href="index.html">Go to Home</a> 
-    
+    <blockquote>
+        <table border="">
+            <tr>
+                <td> <img src="Images/Paragraph-code-sample.png" alt="Paragraph code sample" width="450"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">Fig:a</td>
+            </tr>
+        </table>
+    </blockquote>
+
+    <blockquote>
+        <table border="">
+            <tr>
+                <td>
+                    <img src="Images/Paragraph-code-display.png" alt="" width="500">
+                </td> 
+            </tr>
+            <tr>
+                <td style="text-align: center;">Fig:b</td>
+            </tr>
+        </table>
+    </blockquote>
+
+    <h2>Q: If we want to give a line break or if we want to display the exact content as it is written in html code, then how can we do this?</h2>
+
+    <ul>
+        <li><u>We can do this by using :</u></li>
+        <li><b>HTML Line Break:</b> For new Line</li>
+        <li><b>&lt;pre&gt; tag:</b> For displaying exactly as per the HTML code (retaining spaces and new lines)</li>
+    </ul>
+
+    <h2># <u>HTML Line Breaks:</u></h2>
+    <ul>
+        <li>The HTML &lt;br&gt; element defines a line break.</li>
+        <li>Use &lt;br&gt; if you want a line break (a new line) without starting a new paragraph.</li>
+        <li><b><u>Example: </u></b>In the below image we can conclude that &lt;br&gt; creates new line.</li>
+    </ul>
+
+    <blockquote>
+        <img src="Images/br-tag-use.png" alt="br tag use" width="400">
+    </blockquote>
+
+    <h2># <u>PRE TAG:</u></h2>
+
+    <ul>
+        <li>Prev tag is used to display the text exactly as we write in html file.</li>
+        <li>The text inside a &lt;pre&gt; element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks.</li>
+    </ul>
+
+    <blockquote>
+        <strong>Note: </strong>
+        <ul>
+            <li>
+                <span style="background-color: yellow;">&lt;pre&gt; tag is very useful in writing poems.</span>
+            </li>
+            <li>In poems we have to write small sentences and we need to give spaces between two stanza. In this case if we will use br tags for line break and spaces then it will be very difficult. Hence we use pre tag for writing poem.</li>
+        </ul>
+         
+    </blockquote>
+
+    <blockquote>
+        <b>Example: </b>The below figure shows the use of &lt;pre&gt; tag.
+    </blockquote>
+    <blockquote>
+        <img src="Images/pre-tag-example.png" alt="pre tag example" width="250">
+    </blockquote>
+
+    <a href="HTML_Heading.html">Prev</a>
+    <a href="HTML_Formatting.html">Next</a>
+
 </body>
 </html>
