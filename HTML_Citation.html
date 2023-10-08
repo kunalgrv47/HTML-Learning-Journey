@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page contains information about HTML Citation">
     <title>Blockquote and Citation</title>
 </head>
 
@@ -18,6 +19,7 @@
     <hr>
 
     <div class="blockquote">
+
         <div class="blockquote heading">
             <h2>
                 <span style="background-color: yellow;">
@@ -35,65 +37,161 @@
                     The &lt;blockquote&gt; element is typically used for longer quotations, and it is a block-level
                     element, meaning it creates a block-level container for the quoted text.
                 </li>
+                <li>
+                    By default, the &lt;blockquote&gt; element in HTML may have some margin to visually distinguish it
+                    as a block-level quotation and separate it from the surrounding content
+                </li>
             </ul>
         </div>
+
         <div class="blockquote example">
             <ul>
-                <li><b>Example 1: </b>If we want to write a quotation of ravindranath tagore, then we can use blockquote
-                    tag and if we want to specify the sorce (i.e. Ravindranath Tagore) then we can mention inside <b style="background-color: yellow;">cite element.</b> </li>
+                <li><b>Example: </b>Below image shows the exampe of blockquote element.</li>
+            </ul>
+
+            <div style="padding-left: 40px;">
+                <img src="Images/blockquote-example.png" alt="Blockquote Exapmle" height="500">
+            </div>
+            <ul>
+                <li>
+                    <b>Note: </b>In the above example (image), the <b>cite attribute</b> of the &lt;blockquote&gt;
+                    element is intended to specify the source of the quotation, typically as a URL. <br>
+                </li>
+                <li>The <b>&lt;cite&gt; element </b>inside the &lt;footer&gt; is used to provide the name of the author
+                    or source of the quotation.</li>
             </ul>
         </div>
     </div>
 
-    <h4 style="background-color: yellow;">blockquote tag</h4>
-    <p>It is used to display the content with leaving some margin from left.
-    <blockquote>
-        Time is money
-    </blockquote>
-    </p>
+    <div class="cite attribute">
 
-    <h4 style="background-color: yellow;">q tag</h4>
-    <p>To write something in quotes we can use <i>q tags</i></p>
-    <pre>
-        <b>Example:</b> 
-        &lt;q&gt;Time is Money.&lt;/q&gt; 
-        <q>Time is money.</q>
-    </pre>
+        <div class="cite attribute heading">
+            <h2>
+                <span style="background-color: yellow;">
+                    # cite Attribute:
+                </span>
+            </h2>
+        </div>
 
-    <h4 style="background-color: yellow;">cite tag:</h4>
-    <p>
-        If we want to display statemet which is told by some person then we can write persons name inside the cite
-        tag. <br> Also we can use to show conversation.
-    </p>
+        <div class="cite attribute description">
+            <ul>
+                <li>
+                    The cite attribute is used with specific HTML elements, such as &lt;blockquote&gt; and
+                    &lt;figure&gt;, to specify the source or reference for the content within those elements.
+                </li>
+                <li>
+                    It is typically used to provide a URL that points to the source of the content. This URL can link to
+                    an external webpage, a document, or any resource that serves as the source of the quoted or
+                    referenced material.
+                </li>
+                <li>
+                    The cite attribute is used for indicating the source of the content in a machine-readable way,
+                    making it useful for search engines and accessibility.
+                </li>
+            </ul>
+        </div>
 
-    <pre>
-        <b>Example:</b>
-        <cite>Kunal:</cite> Time is money.
-        <cite>Ram: </cite> Yes, you are right.
-
-        <mark>Here Kunal and Ram are written inside cite tag.</mark>
-        
-    </pre>
-
-
-    <h4 style="background-color: yellow;">bdo tag</h4>
-    <p>
-        * It is used to print content from right to left. <br>
-        * Mostly for scripts which goes right to left like <i>urdu.</i>
-    <pre>
-            <b>Example:</b>
-            1. Mohan will be written as: 
-            <mark><bdo dir="rtl">Mohan</bdo></mark>
-            2. String <q>This is good as:</q> 
-            <mark><bdo dir="rtl">This is good</bdo></mark> 
-        </pre>
-    </p>
-
-    <div>
-        <a href="HTML_Formatting.html">Prev</a>
+        <div class="cite attribute example">
+            <ul>
+                <li>
+                    <b>Example</b> with the cite attribute in a &lt;blockquote&gt; element are shown i fig below:
+                </li>
+            </ul>
+            <div style="padding-left: 40px;">
+                <img src="Images/cite attribute example.png" alt="cite attribute example" width="450">
+            </div>
+        </div>
     </div>
-    <div>
-        <a href="index.html">Go to Home</a>
+
+    <div class="cite element">
+
+        <div class="cite element heading">
+            <h2>
+                <span style="background-color: yellow;">
+                    # &lt;cite&gt; Element:
+                </span>
+            </h2>
+        </div>
+
+        <div class="cite element description">
+            <ul>
+                <li>
+                    The &lt;cite&gt; element is used to mark up the title of a creative work, such as the title of a
+                    book, movie, song, or the name of an author or source.
+                </li>
+                <li>
+                    It is typically used within the content to provide proper semantic meaning to the title or author's
+                    name and is usually styled accordingly.
+                </li>
+                <li>
+                    The &lt;cite&gt; element is used for indicating the title or name of a creative work or the name of
+                    an author, rather than specifying the source of a quotation.
+                </li>
+            </ul>
+        </div>
+
+        <div class="cite element example">
+            <ul>
+                <li>
+                    <b>Example 1:</b> with the &lt;cite&gt; element used to mark title of the book.
+                </li>
+            </ul>
+            <div style="padding-left: 40px;">
+                <img src="Images/cite-element-example1.png" alt="cite element example1" width="450">
+            </div>
+            <ul>
+                <li>
+                    <b>Example 2:</b> with the &lt;cite&gt; element used to show the name of the author.
+                </li>
+            </ul>
+            <div style="padding-left: 40px;">
+                <img src="Images/cite-element-example2.png" alt="cite element example2" width="450">
+            </div>
+        </div>
+    </div>
+
+    <div class="bdo element">
+        <div class="bdo element heading">
+            <h2>
+                <span style="background-color: yellow;">
+                    # &lt;bdo&gt; element:
+                </span>
+            </h2>
+        </div>
+
+        <div class="bdo element description">
+            <ul>
+                <li>
+                    The &lt;bdo&gt; element in HTML stands for "Bi-Directional Override
+                </li>
+                <li>
+                    This element is particularly useful when dealing with languages that are written from right to left
+                    (such as Arabic or Hebrew)
+                </li>
+                <li>
+                    The <bdo> element has a dir attribute that you can use to specify the desired text direction.
+                </li>
+                <li>
+                    <b>ltr:</b> Specifies that the text should be displayed from left to right, overriding the default
+                    directionality if it's right-to-left.
+                </li>
+                <li>
+                    <b>rtl: </b>Specifies that the text should be displayed from right to left, overriding the default
+                    directionality if it's left-to-right.
+                </li>
+            </ul>
+        </div>
+
+        <div class="bdo element exampe">
+            <ul>
+                <li>
+                    <b>Example: </b> Below image shows the use of bdo element.
+                </li>
+            </ul>
+            <div style="padding-left: 40px;">
+                <img src="Images/bdo-element-example.png" alt="bdo element example" height="300">
+            </div>
+        </div>
     </div>
 
 
